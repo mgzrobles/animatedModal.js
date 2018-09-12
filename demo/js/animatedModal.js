@@ -133,7 +133,7 @@
         }
 
         // close modal menu if esc key is used
-        jQuery(document).keyup(function(event){
+        $(document).keyup(function(event){
             if(event.keyCode == 27) {
                 settings.close(event);
             }
